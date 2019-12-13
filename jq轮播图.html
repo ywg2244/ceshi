@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jq轮播图</title>
+	<script src="ajax.js"></script>
+</head>
+<body>
+	<div class="word">
+		<div class="box">
+			<ul>
+				<li>
+					<img src="img/t1.png" />
+					<div class="zz">
+						<p>H5建站/商城产品买多年送多年</p>
+						<a href="javascript:;">活动详情</a>
+					</div>
+				</li>
+				<li>
+					<img src="img/t2.png" alt="">
+				</li>
+				<li>
+					<img src="img/t3.png" alt="">
+				</li>
+			</ul>
+			<p class="prev"> < </p>
+			<p class="next"> > </p>
+		</div>
+		<div class="box2">
+			<div class="top">
+				<span>选项11</span>
+				<span>选项12</span>
+				<span>选项13</span>
+			</div>
+			<div class="content">
+				<div class="cc">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div class="ckgd">查看更多</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="ajax2.json"></script>
+	<script type="text/javascript">
+		ajax({
+			type:"get"
+			url:"ajax2.json"
+		})
+	</script>
+</html>
